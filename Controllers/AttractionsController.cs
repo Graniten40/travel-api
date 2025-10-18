@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Travel.Infrastructure;
+using Travel.Infrastructure.Data; // TravelDbContext
 using Travel.Domain.Dtos;
 using Travel.Domain;
 

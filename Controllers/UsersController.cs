@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using Travel.Infrastructure;
+using Travel.Infrastructure.Data; // TravelDbContext
 
 namespace Travel.Api.Controllers;
 

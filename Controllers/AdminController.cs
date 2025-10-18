@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
-using Travel.Infrastructure;                 // TravelDbContext
-using Travel.Infrastructure.Seeding;        // SeedService
-using Travel.Api.Seeding;                   // SeedOptions (viktigt!)
+using Travel.Infrastructure.Data;                 // TravelDbContext
+using Travel.Infrastructure.Seed;        // SeedService
+
 
 namespace Travel.Api.Controllers;
 

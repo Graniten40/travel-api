@@ -24,6 +24,5 @@
   <ItemGroup>
     <ProjectReference Include="..\Travel.Domain\Travel.Domain.csproj" />
     <ProjectReference Include="..\Travel.Infrastructure\Travel.Infrastructure.csproj" />
-    <ProjectReference Include="..\external\SeedGenerator\seedGenerator\seedGenerator.csproj" />
   </ItemGroup>
 </Project>

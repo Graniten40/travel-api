@@ -6,10 +6,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
 using Seido.Utilities.SeedGenerator;
 using Travel.Domain;
-using Travel.Infrastructure;
-using Travel.Infrastructure.Seeding;
+using Travel.Infrastructure.Data;
+using Travel.Infrastructure.Seed;
 
-namespace Travel.Api.Seeding;
+namespace Travel.Api.Seed;
 
 // DataSeeder ansvarar för att fylla databasen med testdata.
 // Den skapar länder, kategorier, städer, användare, sevärdheter och kommentarer.

@@ -2,11 +2,10 @@ using System;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
-
 using Seido.Utilities.SeedGenerator;      // <— från external/SeedGenerator
-using Travel.Infrastructure;               // TravelDbContext
+using Travel.Infrastructure.Data;               // TravelDbContext
 using Travel.Api.Seeding;                  // DataSeeder
-using Travel.Infrastructure.Seeding;       // SeedService + SeedOptions
+using Travel.Infrastructure.Seed;       // SeedService + SeedOptions
 
 var builder = WebApplication.CreateBuilder(args);
 
